@@ -1,0 +1,12 @@
+Algoritmo codigousuario
+	Escribir "Inserte usuario"
+	Leer usuario;
+	Escribir "Inserte contraseña"
+	Leer contraseña;
+	Si usuario <> 1 y contraseña <> 1234 Entonces
+		Escribir "Error, intentalo de nuevo"
+	FinSi
+	Repetir
+	Hasta Que usuario=1 y contraseña=1234
+Escribir "Correcto!"
+FinAlgoritmo

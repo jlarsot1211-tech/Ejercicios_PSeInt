@@ -1,0 +1,6 @@
+Algoritmo sumapares
+	Escribir "inserte Num1"
+	Leer Num1;
+	Escribir "inserte Num2"
+	Leer Num2;
+FinAlgoritmo

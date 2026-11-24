@@ -1,0 +1,13 @@
+Algoritmo sumarazar
+	Num1 <- AZAR(101)
+	Num2 <- AZAR(101)
+	Suma <- Num1 + Num2
+	Escribir "Los numeros son: ", Num1, " y ", Num2
+	Escribir "Introduce la suma de los dos numeros:"
+	Leer Respuesta
+	Mientras Respuesta <> Suma Hacer
+		Escribir "Erroneo"
+		Leer Respuesta
+	Fin Mientras
+	Escribir "Insartado correctamente!" La suma es ", Suma"
+FinAlgoritmo

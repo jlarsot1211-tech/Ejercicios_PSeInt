@@ -1,0 +1,9 @@
+Algoritmo insertecontraseña
+	Escribir "inserte contraseña"
+	Leer contraseña
+	Mientras contraseña <> 1234 Hacer
+		Escribir "contraseña erronea"
+		Leer contraseña
+	FinMientras
+	Escribir "Contraseña correcta"
+FinAlgoritmo

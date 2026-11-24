@@ -1,0 +1,11 @@
+Algoritmo sumapar
+	Escribir "Escriba dos numeros"
+	Leer Num1
+	Leer Num2
+	Mientras  Num1 <> 0 o Num2 <> 0 Hacer
+		Escribir "Su suma es: ", Num1 + Num2
+		Escribir "Escriba dos numeros"
+		Leer Num1
+		Leer Num2
+	FinMientras
+FinAlgoritmo
